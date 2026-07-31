@@ -1,0 +1,17 @@
+print("=" * 40)
+print("FICHA DE PERSONAGEM (Adventurers' Guild)")
+print("=" * 40)
+
+nome = input("Nome: ")
+raca = input("Raça (Hyur/Elezen/Lalafell/Roegadyn/Miqo'te/Au Ra/Hrothgar/Viera): ")
+nivel_texto = input("Nível: ")
+nivel = int(nivel_texto)
+
+print()
+print(f"Personagem registrado:")
+print(f"  Nome:  {nome}")
+print(f"  Raça:  {raca}")
+print(f"  Nível: {nivel}")
+print(f"  Faixa: {'iniciante' if nivel < 50 else 'veterano'}")
+print()
+print("Que sua jornada traga aether prosperity.")

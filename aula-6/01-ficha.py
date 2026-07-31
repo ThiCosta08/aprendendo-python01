@@ -1,0 +1,16 @@
+print("=" * 30)
+print("FICHA DE REGISTRO E LOGIN")
+print("=" * 30)
+
+nome = input("Nome: ")
+raca =input ("Raça: ")
+job = input ("Job: ")
+nivel = input ("Nível do personagem: ")
+
+print()
+print(f"Personagem registrado:")
+print (f"Nome: {nome}")
+print (f"Raça: {raca}")
+print (f"Job: {job}")
+print (f"Nível do personagem: {nivel}")
+print()

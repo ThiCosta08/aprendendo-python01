@@ -1,0 +1,13 @@
+input() é o /tell que vem do jogador
+A função input() pausa o programa, espera o usuário digitar alguma coisa e apertar Enter, e devolve o que foi digitado.
+
+nome = input("Qual o nome do seu personagem? ")
+print("Bem-vindo a Eorzea,", nome)
+
+Saída (com o usuário digitando “Y’shtola” e Enter):
+
+Qual o nome do seu personagem? Y'shtola
+Bem-vindo a Eorzea, Y'shtola
+
+A string que você passa pro input() é o prompt, mostrado pro usuário antes do cursor. Sempre coloque um espaço no fim do prompt, fica mais legível.
+
